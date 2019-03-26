@@ -13,3 +13,9 @@ history = model.fit(celsius_q, fahrenheit_a, epochs=500, verbose=False)
 model.predict([100.0])
 ```
 
+```model.fit``` trains the model by providing the features (inputs) and labels (outputs) by using **gradient descent**.
+
+**Loss function** is the function that measures how good or bad the model is during each iteration.
+
+During the training process, the goal is to minimize the loss function.
+
